@@ -10,7 +10,8 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-:root {
+
+ :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
@@ -11291,8 +11292,69 @@ textarea.form-control-lg {
 
 /* Extra-css */
 
+/* index.html */
 .detail-list{
   padding-bottom:24px;
   padding-left:24px;
   padding-right:24px;
 }
+
+/* login.html */
+
+.login-div{
+  background-color: white;
+  text-align: center;
+  width: 450px;
+  height:100vh;
+  margin:0 auto;
+  align-items: center;
+}
+.login-div h1{
+  font-weight: bold;
+  padding-top: 10px;
+}
+.login-div hr{
+  margin:auto;
+  margin-bottom: 15px;
+  justify-content: center;
+  width:80%;
+}
+
+.form-div{
+}
+
+.caption{
+}
+.caption ul,li{
+  list-style: none;
+  margin:0px;
+  padding:0px;
+  display:inline-block;
+  /* 전후 줄바꿈 없이 한 줄에 다른 엘리먼트들과 나란히 배치 */
+}
+.caption a{
+  text-decoration: none;
+  color:lightgray;
+}
+.caption li::after{
+  content:" | ";
+  color:lightgray;
+}
+.caption li:last-child::after{
+  content:"";
+}
+
+
+
+.int-area{
+  margin-top:5px;
+}
+.btn-area{
+  margin-top:15px;
+}
+
+#id,#pw,#btn{
+  width:250px;
+  height: 40px;
+}
+
