@@ -11353,6 +11353,12 @@ textarea.form-control-lg {
   margin-top:15px;
 }
 
+#btn{
+  background-color: black;
+  color:white;
+  font-weight: bold;
+}
+
 #id,#pw,#btn{
   width:250px;
   height: 40px;
