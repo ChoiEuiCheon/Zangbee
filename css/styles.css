@@ -11324,6 +11324,7 @@ textarea.form-control-lg {
 }
 
 .caption{
+  margin-top: 10px;
 }
 .caption ul,li{
   list-style: none;
